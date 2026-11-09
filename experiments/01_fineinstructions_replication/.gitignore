@@ -1,0 +1,8 @@
+# large local artifacts: regenerate with the commands in README.md
+/data/
+/runs/*/ckpt*/
+/runs/*/hf*/
+/logs/
+/scratch/
+__pycache__/
+.pytest_cache/

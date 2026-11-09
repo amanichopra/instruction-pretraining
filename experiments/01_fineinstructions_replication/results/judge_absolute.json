@@ -1,0 +1,55 @@
+{
+  "judge_model": "claude-opus-5-5",
+  "n_items": 150,
+  "generations_file": "results/generations_template.json",
+  "absolute": {
+    "arm_a_pretrain": {
+      "mean_score": 1.6333333333333333,
+      "n": 150,
+      "histogram": {
+        "1": 72,
+        "2": 63,
+        "3": 13,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      }
+    },
+    "arm_b_sft_from_scratch": {
+      "mean_score": 2.1533333333333333,
+      "n": 150,
+      "histogram": {
+        "1": 36,
+        "2": 81,
+        "3": 19,
+        "4": 5,
+        "5": 7,
+        "6": 1,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      }
+    },
+    "arm_c_pretrain_then_sft": {
+      "mean_score": 2.1266666666666665,
+      "n": 150,
+      "histogram": {
+        "1": 38,
+        "2": 76,
+        "3": 21,
+        "4": 12,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 1,
+        "9": 0,
+        "10": 0
+      }
+    }
+  }
+}

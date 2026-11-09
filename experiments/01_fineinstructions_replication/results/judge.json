@@ -1,0 +1,1266 @@
+{
+  "judge_model": "claude-opus-5-5",
+  "n_items": 150,
+  "generations_file": "results/generations_template.json",
+  "pairwise": {
+    "arm_a": "arm_a_pretrain",
+    "arm_b": "arm_b_sft_from_scratch",
+    "n_judged": 150,
+    "win_rate_arm_a_pretrain": 0.21,
+    "win_rate_arm_b_sft_from_scratch": 0.6866666666666666,
+    "tie_rate": 0.10333333333333333,
+    "agreement_both_orientations": 0.8933333333333333,
+    "per_item": [
+      {
+        "index": 0,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How can i get bank account transaction information that is set in hibooks. Like it is in the Banking section of the hibooks platform. I can easily get account balance information and apply it to it bu"
+      },
+      {
+        "index": 1,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is a protein bar good to eat?"
+      },
+      {
+        "index": 2,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what is The Courtauld contact information?"
+      },
+      {
+        "index": 3,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "This is related to a commercial ship hull if it surrounded by a reference ship hull form and used it as a deformation method (as well as interpolation method) could its hull form deformation part be e"
+      },
+      {
+        "index": 4,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are paid advertising platforms?"
+      },
+      {
+        "index": 5,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "is a mouthwash suitable for protecting children from cavities and gum disease?"
+      },
+      {
+        "index": 6,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are roasted cashews that are rich in heart healthy monounsaturated fats, nutrient rich, and provide an energy boost?"
+      },
+      {
+        "index": 7,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are cost per click on Google Ads?"
+      },
+      {
+        "index": 8,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Does Risbo offer educational vision development workshops? I want to formulate a clear and guiding educational vision for my institution and be able to create a sense of purpose and direction for my e"
+      },
+      {
+        "index": 9,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I can't see how being able to control multiple outdoor lights with motion sensors would be useful to a home security system.\n\nBonus points for explaining why it seems to be a smart home automation fea"
+      },
+      {
+        "index": 10,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are the benefits of using Automated Guided Vehicles (AGVs)\n\nOne of the key innovations in warehouse management is the adoption of Automated Guided Vehicles (AGVs). These autonomous vehicles are e"
+      },
+      {
+        "index": 11,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are hammer drills used for in the mining or construction industry?"
+      },
+      {
+        "index": 12,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Any places to volunteer for gleaning? My new desire to give back to my community is to volunteer for gleaning and help those in need of food. Recently moved to Ventura County but I'm not too sure what"
+      },
+      {
+        "index": 13,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "What does Artificial Intelligence, like Machine Learning, Natural Language Processing, and Chatbots, help digital marketers with"
+      },
+      {
+        "index": 14,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Tima Tomash? I appreciate the rent control efforts over lots of a fair housing movement, but their experience has gotten so advanced now that it seems like a lot. Lots and lots of organizing and activ"
+      },
+      {
+        "index": 15,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How widely spoken in Pakistan is Punjabi? I'm curious if it's mostly spoken in the Punjab province and that's why it's so synonymous with Pakistan or if most of the Pakistani population also speaks th"
+      },
+      {
+        "index": 16,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "do you get penalized for operating a motor vehicle under the influence of alcohol or above a .08 blood alcohol content?"
+      },
+      {
+        "index": 17,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Supplements are it good for people taking long-term prescription medications?"
+      },
+      {
+        "index": 18,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are Early Childhood Intervention Services?"
+      },
+      {
+        "index": 19,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How should I convince my colleagues to accept constructive criticism and use it as an opportunity to improve their work? I really want to improve my work, but my colleagues say we should not accept cr"
+      },
+      {
+        "index": 20,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_a_pretrain"
+        ],
+        "instruction": "The Vera Moln\u00e1r who pioneered the development of algorithmic art and generative art needs to be in the prestigious Venice Biennale,... Martin Grasser wishes they had Vera Moln\u00e1r's innovative use of te"
+      },
+      {
+        "index": 21,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "As a community member and a local charity, what is the best way to support a food bank besides just dropping off donations?  We\u2019ve all been there before, a new food bank is coming (or has launched) an"
+      },
+      {
+        "index": 22,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "how to calculate the simplification of fractions in algebra?"
+      },
+      {
+        "index": 23,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Why does my vehicle exhibit increased oil consumption and reduced engine efficiency? I have a 2015 Toyota Camry with a 3.5-liter V6 engine, and whenever I drive for more than 50 miles without regular "
+      },
+      {
+        "index": 24,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "what to do at Glastonbury Abbey, a historic site in Somerset, England, known for its medieval architecture and rich history?"
+      },
+      {
+        "index": 25,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Legality on making false statements about someone's character Hi,\n\n&amp;#x200B;\n\nWhat are the legalities on the following actions pertaining to individuals who have been defamed?\n\n&amp;#x200B;\n\n1. Wri"
+      },
+      {
+        "index": 26,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "does ribozyme affect your ability to produce proteins?"
+      },
+      {
+        "index": 27,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what type of denture for tooth loss?"
+      },
+      {
+        "index": 28,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How to make AirBnB cleaning more interesting? Any team-building or family bonding related ways to make AirBnB cleaning a little more interesting for the family and friends who help with the cleaning r"
+      },
+      {
+        "index": 29,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Golf at McCall Golf Course I'm about to move into McCall Golf Course and was considering bringing my golf clubs, but I just wanted to see what people had to say about golf in the area. Also, how's the"
+      },
+      {
+        "index": 30,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how to activate console commands for Hearts of Iron IV Millennium Dawn?"
+      },
+      {
+        "index": 31,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what is Harri Haamer, a Estonian theologian and writer, famous for?"
+      },
+      {
+        "index": 32,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "why is Chumphon called the Gateway to the South of Thailand?"
+      },
+      {
+        "index": 33,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "how to make a deposit through a credit card using a sportsbook?"
+      },
+      {
+        "index": 34,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are benefits of Gluta D, a naturally occurring antioxidant found in the cells of the human body and commonly used as a supplement and skincare ingredient to promote health, wellness, and beauty?"
+      },
+      {
+        "index": 35,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "how to apply a fruit enzyme exfoliating product?"
+      },
+      {
+        "index": 36,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Isnt this the dream of a pioneering computer artist? To come up with a concept that proves a whole damn algorithmic art movement is groundbreaking.\n\nWhoever came up with the creation of on-chain gener"
+      },
+      {
+        "index": 37,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are trout spawned on-site at a farm location?"
+      },
+      {
+        "index": 38,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "What is the benefit of \"winter maintenance\" at the high-elevation golf course? I just noticed this winter maintenance. What does it do? Why does it require \"turfgrass science and specialized equipment"
+      },
+      {
+        "index": 39,
+        "votes": [
+          "tie",
+          "arm_a_pretrain"
+        ],
+        "instruction": "ELI5 why are so many Biafran women pissed off with 'the Nigerian government'? I take this huge declaration of independence for granted without really wondering why...did we declare independence someth"
+      },
+      {
+        "index": 40,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what is the importance of conducting a thorough cloud readiness assessment to ensure a smooth and successful migration to the cloud?"
+      },
+      {
+        "index": 41,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Guys can we all do a family and friend cleaning event where only family and friends are allowed? We'll come up with some creative cleaning challenges and team-building activities along the way but I j"
+      },
+      {
+        "index": 42,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I've [proposed](https://www.example.com/clean-energy-deployment-proposal) to have a clean energy transition from Southeastern utilities to the national grid not just to give clean energy transition on"
+      },
+      {
+        "index": 43,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Ideas to put in to the piggy bank??? I'm looking for some ideas to put into the savings account at my family's household.  What y'all got???"
+      },
+      {
+        "index": 44,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "ok Google what are the benefits of consuming Kodiak pancakes?"
+      },
+      {
+        "index": 45,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "does Rocket work with Kubernetes?"
+      },
+      {
+        "index": 46,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "I am looking to load a CR2 image with raw pixel data and get the raw pixel values of that. Then extract it to display properly in a 16-bit PPM PGM image of a CR2 image or a 16-bit TIFF image. How to d"
+      },
+      {
+        "index": 47,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Say something \"It's not a personal attack\": \"[your answer]\" when someone is giving you negative feedback on your work, such as a grade on a project or a critique of your performance in a meeting.. (no"
+      },
+      {
+        "index": 48,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what are the benefits of using natural remedies for hair loss that involves applying aloe vera, castor oil, or rosemary oil to the scalp?"
+      },
+      {
+        "index": 49,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "what are the factors determining the regulation of embryonic development, cell proliferation, differentiation, and migration through the activation of multiple signaling cascades by FGFR-1 alpha, a ty"
+      },
+      {
+        "index": 50,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are fermented foods and drinks healthy and tasty?"
+      },
+      {
+        "index": 51,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Write a short story about the intersection of art and everyday life, exploring how a contemporary artist's use of linear strokes and coloristic geometric elements in their work can be applied to creat"
+      },
+      {
+        "index": 52,
+        "votes": [
+          "tie",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "things to do in the mountains before going on a trail outing?"
+      },
+      {
+        "index": 53,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "how to get a construction loan with a limited down payment?"
+      },
+      {
+        "index": 54,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are some ways to get rid of and prevent cavities. i have been experiencing cavities and want to find out how to protect my teeth from decay and maintain good oral health, any advice would be nice"
+      },
+      {
+        "index": 55,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How would you determine the luminosity of the Sun?"
+      },
+      {
+        "index": 56,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "give me a response to ```**the biblical meaning of the number 114, which holds significant spiritual significance and symbolism in the Bible**. There is so much to be gained from taking the time to **"
+      },
+      {
+        "index": 57,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "You are the Multiple Linear Regression model and you must complete the step-by-step implementation guide below, only send the completion based on the Scikit-Learn library instructions for implementing"
+      },
+      {
+        "index": 58,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are the steps of the FGFR-1 alpha signaling pathway activation upon ligand binding?"
+      },
+      {
+        "index": 59,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How we can secure our Apple devices from malicious users.\n\nIs there any security feature is available in Apple devices to prevent it hacking or unauthorized access from malicious users."
+      },
+      {
+        "index": 60,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Thoughts on involving family and friends in AirBnB cleaning with loved ones? I recently participated in the activity of cleaning my AirBnB with both my family and friends and we all just have a fun an"
+      },
+      {
+        "index": 61,
+        "votes": [
+          "tie",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what characteristics or attributes are Bender the Robot Earrings?"
+      },
+      {
+        "index": 62,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are double-headed eagles a type of cultural or historical symbol or motif Albanians or Turks?"
+      },
+      {
+        "index": 63,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "What is meant by a PGM file of a CR2 or DNG image? How can I create or produce a PGM file of a CR2 or DNG image? When would you use a PGM file of a CR2 or DNG image?"
+      },
+      {
+        "index": 64,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "How do I get involved in the endangered species adoption program for endangered animals? I have a lot of high energy for conservation efforts in my local community and I wanna participate in supportin"
+      },
+      {
+        "index": 65,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are threatened mammal species causing a decline in population numbers on the Australian ecosystem?"
+      },
+      {
+        "index": 66,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_a_pretrain"
+        ],
+        "instruction": "how emotional contagion affects leadership performance and team dynamics?"
+      },
+      {
+        "index": 67,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I have some Rocket application that I want to showcase that have their own Rocket.toml files.\n\nI want to make a self-managed deployment in my Rocket so that if I go /www/pkg I would see simply my Rock"
+      },
+      {
+        "index": 68,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how does the Canadian wildfire affect the air quality in West Michigan?"
+      },
+      {
+        "index": 69,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Do natural skincare products actually work? I've always seen them around but I didn't really deem them to be a very effective and safe thing in the sense of achieving healthy and balanced skin without"
+      },
+      {
+        "index": 70,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "As a Memphis-Shelby County Schools community, what can we do to get the ball rolling on improving water quality to the original lead-free water supply? Current lead contamination levels are just unacc"
+      },
+      {
+        "index": 71,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "what are the rules or guidelines for overtaking on the roads?"
+      },
+      {
+        "index": 72,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "How do I \"cultivate emotional awareness and a positive work environment\" in a corporate setting? A lot of people told me that getting the right \"emotional connections and relationships\" with the right"
+      },
+      {
+        "index": 73,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Please give a brief description of the story of Albert Einstein giving a note in lieu of a tip to a Japanese courier. The note said, \"a quiet and modest life brings more joy than a pursuit of success "
+      },
+      {
+        "index": 74,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "what are the nutritional and health benefits of cultured dextrose?"
+      },
+      {
+        "index": 75,
+        "votes": [
+          "tie",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Slot machine tips"
+      },
+      {
+        "index": 76,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is practicing mindfulness meditation good for your mental health?"
+      },
+      {
+        "index": 77,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "how does tubal ligation help with preventing unintended pregnancy?"
+      },
+      {
+        "index": 78,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "where do Denisovans, a mysterious extinct branch of the human family tree that interbred with modern humans in a vast range from Siberia to Southeast Asia, come from?"
+      },
+      {
+        "index": 79,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is buying a used car worth it?"
+      },
+      {
+        "index": 80,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Has there ever been a domestic helper who has enabled women to pursue their careers without worrying about household management? Serious question, personally I don\u2019t think there are. But I could be wr"
+      },
+      {
+        "index": 81,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is ultraviolet sauna therapy good for improving overall health and wellness?"
+      },
+      {
+        "index": 82,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what are dynamic arrays in C?"
+      },
+      {
+        "index": 83,
+        "votes": [
+          "tie",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Do food banks and charities need extra help right now? Want to check in on the food banks and charities around Ventura County. I haven\u2019t heard if extra food donations, fresh produce such as avocados a"
+      },
+      {
+        "index": 84,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what were the human and economic consequences of the World War II?"
+      },
+      {
+        "index": 85,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what would happen if I were to pass another vehicle on the left side of a multi-lane carriageway or motorway without checking my blind spot? I know it's not a good idea.  But there is all this hype no"
+      },
+      {
+        "index": 86,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is the ceramics created by ancient Maya potters vibrant?"
+      },
+      {
+        "index": 87,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "will Wurst be available on Minecraft 1.19.2 + Fabric?"
+      },
+      {
+        "index": 88,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are crankcase breathers good for maintaining optimal engine performance and preventing damage from pressure build-up?"
+      },
+      {
+        "index": 89,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "is monitoring someone's laptop screen allowed in a workplace or educational environment?"
+      },
+      {
+        "index": 90,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are developing cultural competence in childcare settings, which involves understanding and appreciating the cultural values, beliefs, and practices of diverse communities, good?"
+      },
+      {
+        "index": 91,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what are the benefits of implementing processes in a small business?"
+      },
+      {
+        "index": 92,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Were there any humanitarian crises which could have been due to the Nigerian government and Biafran forces in Nigeria? That is to ask, in the conflict zone where those Nigerian government and Biafran "
+      },
+      {
+        "index": 93,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Hello modern website design Am I the only one that thinks modern website design's visual appeal would look better without white space? I'm curious to know the thought process behind its visual appeal."
+      },
+      {
+        "index": 94,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "is using an ultraviolet sauna good for your overall health?"
+      },
+      {
+        "index": 95,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "will Automotive Vehicle Leasing Company open vehicle leasing agreements?"
+      },
+      {
+        "index": 96,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "do Ivermectin actually reduce the replication rate of the novel coronavirus by a thousand times?"
+      },
+      {
+        "index": 97,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how formidable is a blue shark?"
+      },
+      {
+        "index": 98,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I am looking to read other peoples Linux performance optimization courses to learn how to produce quality, speedy, reusable Linux systems. If the Linux performance optimization course has kernel tunin"
+      },
+      {
+        "index": 99,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are organic and natural skincare products that use natural ingredients and processes, such as those produced with organic ingredients and natural processes, good for you?"
+      },
+      {
+        "index": 100,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Is STEM Education important for young people in the 21st century job market? I have read a number of educational blogs and articles lately that have suggested that young people are very interested in "
+      },
+      {
+        "index": 101,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "the person who created or developed the concept of time perception in video games?"
+      },
+      {
+        "index": 102,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Give me some organic decor or any nature-inspired design related to the subject designs! Not much more to add. I want to get a nature-inspired sanctuary but I'm not sure what. So far I'm thinking just"
+      },
+      {
+        "index": 103,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how is chocolate waffles made?"
+      },
+      {
+        "index": 104,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what are ALEKS Math placement tests like?"
+      },
+      {
+        "index": 105,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Most immersive and interactive virtual reality gaming experiences? I want to get some young adults into the virtual reality gaming, but I don't know what virtual reality games would be good to introdu"
+      },
+      {
+        "index": 106,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Flow components is not allowing setting an id to the tab because it's underlying used on the client side to associate tabs with the content?"
+      },
+      {
+        "index": 107,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "is it legal to operate a motor vehicle under the influence of alcohol or above a .08 blood alcohol content under certain circumstances or conditions?"
+      },
+      {
+        "index": 108,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "what are the optional props of the FlatList component, such as ItemSeparatorComponent, KeyExtractor, ListHeaderComponent, ListFooterComponent, initialNumToRender, and onRefresh, mean?"
+      },
+      {
+        "index": 109,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Completely new poker with some questions!! I\u2019m currently reading the beginner's guide and was wondering if I should even start playing it. Is the strategy of knowing hand rankings and betting sizes go"
+      },
+      {
+        "index": 110,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "if you have a hormonal insomnia caused by fluctuations in estrogen and progesterone levels during the menstrual cycle, pregnancy, or menopause what to do?"
+      },
+      {
+        "index": 111,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "are protein bars good for curbing late-night cravings?"
+      },
+      {
+        "index": 112,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "The golf course maintenance system includes turfgrass science and is composed of multiple components such as greens, tees, and fairways. It has a notable characteristic or property of being susceptibl"
+      },
+      {
+        "index": 113,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Politics sayings?"
+      },
+      {
+        "index": 114,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "ChatGPT language model benefits Hi All,  \nI just received my ChatGPT language model. Some of the main language model benefits I saw were:  \n- General access to the ChatGPT system, allowing users to in"
+      },
+      {
+        "index": 115,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Log: the history and development of institutions for people with disabilities in the United States, including mental hospitals, state schools, and group homes, from the 18th century to the present day"
+      },
+      {
+        "index": 116,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what is a construction loan?"
+      },
+      {
+        "index": 117,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I was going through the product review website for some of the Coyote Portable Electric Grills and I stumbled upon this one.\n\nIt's called Coyote Portable Electric Grill\n\nThe product description says:\n"
+      },
+      {
+        "index": 118,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Should I help my freelance writers who are struggling with rejection and criticism? Should I help my freelance writers who are struggling with rejection and criticism and give them guidance on how to "
+      },
+      {
+        "index": 119,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "where do you find the information on subscription plans or pricing tiers on Mangasusu?"
+      },
+      {
+        "index": 120,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "write some artist biography about Art Addicted Dot Com, a contemporary Italian artist known for combining words and vibrant images of female silhouettes to tell complex stories and give positive messa"
+      },
+      {
+        "index": 121,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Are the coatings in glass bottles scratch-resistant? Sorry if that sounds like a silly question, but I've searched all around and I've found no answer. All glass bottles are durable, sure, but what ab"
+      },
+      {
+        "index": 122,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Effective customer communication Mastering order cancellation procedures: write a detailed guide on a business blog for this order cancellation procedures, get very professional and very detailed"
+      },
+      {
+        "index": 123,
+        "votes": [
+          "tie",
+          "tie"
+        ],
+        "instruction": "I'm curious as to know how biblical numerology can communicate the inspired word of God. Other forms of spiritual communication in a larger context or system such as prayer, prophecy, or scripture are"
+      },
+      {
+        "index": 124,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "For those of us who are undecided or don't know much about some of the pharmaceutical intellectual property laws on generic drug manufacturing's patent infringement issues - does anybody have any good"
+      },
+      {
+        "index": 125,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is selling commercial property a good investment to acquire?"
+      },
+      {
+        "index": 126,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are hammer drills high-capacity and multipurpose tools for drilling through hard materials like stone, concrete, and masonry?"
+      },
+      {
+        "index": 127,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are some common e-commerce website development and online store management topics asked in a professional or formal business setting?"
+      },
+      {
+        "index": 128,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "are laser cutting machines made of wood and acrylic?"
+      },
+      {
+        "index": 129,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "is the Diageo, a multinational beverage company that owns brands such as Smirnoff and Johnnie Walker, making money?"
+      },
+      {
+        "index": 130,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "\"The control and discipline of being a working mother came so overwhelmingly challenging to me, that I can\u2019t delude myself that if I\u2019d been more financially independent, and not forced into being a pr"
+      },
+      {
+        "index": 131,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Golf course for practicing golf swings I'm just wondering what the ice layer formation is like in the high-altitude mountain setting, I can practice my golf swings but should be careful about ice buil"
+      },
+      {
+        "index": 132,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how to make a simple and protein-rich egg salad using 6 large eggs, 1 teaspoon of regular or dijon mustard, 1 teaspoon of red wine vinegar, 1/4 cup of mayonnaise?"
+      },
+      {
+        "index": 133,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Federico Alvarez Igarz\u00e1bal investigating the formal aspects of video games from I've been wondering for awhile now if there is any current video game scholar who's expertise in time perception and cog"
+      },
+      {
+        "index": 134,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what can cause the computer to fail to recognize or transfer photos when setting up a wireless or wired file transfer system through a smartphone or tablet?"
+      },
+      {
+        "index": 135,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I am looking for a React Native component that can display a long scrollable list of items on several arrays of data.\n\nOptional features that interest me: infinite scrolling and pull to refresh based "
+      },
+      {
+        "index": 136,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "what are the health benefits of whole plant foods such as fruits, vegetables, nuts, seeds and legumes consumption?"
+      },
+      {
+        "index": 137,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_a_pretrain"
+        ],
+        "instruction": "As an expert in the commercial real estate sector, how do you facilitate a quick and competitive sale of a commercial property for the financial benefits received from the auction transaction?"
+      },
+      {
+        "index": 138,
+        "votes": [
+          "arm_a_pretrain",
+          "tie"
+        ],
+        "instruction": "Retroarch for PlayStation 3? I am a pretty avid retro gaming enthusiast player and the Retroarch is amazing. Is there something out there like that for PlayStation 3?"
+      },
+      {
+        "index": 139,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "tie"
+        ],
+        "instruction": "Anybody familiar with how I can implement counting non-leaves in a binary tree in Java? counting non-leaves in a binary tree in Java is similar to traversing and counting nodes in a tree data structur"
+      },
+      {
+        "index": 140,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how to get rid of mold growth on rubber-based items such air conditioning seals, gaskets, coatings, or seals inside your washing machine?"
+      },
+      {
+        "index": 141,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "will a fetal alcohol spectrum disorder affect cognitive development and intellectual abilities?"
+      },
+      {
+        "index": 142,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what are the best features of all-terrain vehicles (ATVs) such as those used by off-road enthusiasts, farmers, hunters, and anyone who needs to traverse rough terrain?"
+      },
+      {
+        "index": 143,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "how to get a commission-free US stock investment account?"
+      },
+      {
+        "index": 144,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "What insights into a global food and beverage industry do local stakeholders, employees, and consumers in South Asia want? I'm doing a kind of documentary about business units and market trends and wo"
+      },
+      {
+        "index": 145,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Does anyone know of any digital marketing systems or technologies that used Artificial Intelligence (AI) and Machine Learning (ML) algorithms: automation, personalization, and data analysis capabiliti"
+      },
+      {
+        "index": 146,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "I am not an Albanian and I am pretty sure the double-headed eagle is mainly associated with Albanians, and in modern times members of the Albanian community seem to always have a double-headed eagle ("
+      },
+      {
+        "index": 147,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "Playing a domestic helper So i love playing a domestic helper I think its a great way to support women's empowerment and enable them to pursue their careers, specially in modern Indian households, whe"
+      },
+      {
+        "index": 148,
+        "votes": [
+          "arm_a_pretrain",
+          "arm_a_pretrain"
+        ],
+        "instruction": "what monounsaturated fats are good for heart health?"
+      },
+      {
+        "index": 149,
+        "votes": [
+          "arm_b_sft_from_scratch",
+          "arm_b_sft_from_scratch"
+        ],
+        "instruction": "Do bonsai tree cultivation projects include the pruning shears and root hooks needed for the proper care and maintenance of the miniature tree? Not sure if I should be adding to the pruning shears and"
+      }
+    ]
+  },
+  "absolute": {
+    "arm_a_pretrain": {
+      "mean_score": 1.6333333333333333,
+      "n": 150,
+      "histogram": {
+        "1": 72,
+        "2": 63,
+        "3": 13,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      }
+    },
+    "arm_b_sft_from_scratch": {
+      "mean_score": 2.1533333333333333,
+      "n": 150,
+      "histogram": {
+        "1": 36,
+        "2": 81,
+        "3": 19,
+        "4": 5,
+        "5": 7,
+        "6": 1,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      }
+    },
+    "arm_c_pretrain_then_sft": {
+      "mean_score": 2.1266666666666665,
+      "n": 150,
+      "histogram": {
+        "1": 38,
+        "2": 76,
+        "3": 21,
+        "4": 12,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 1,
+        "9": 0,
+        "10": 0
+      }
+    }
+  }
+}

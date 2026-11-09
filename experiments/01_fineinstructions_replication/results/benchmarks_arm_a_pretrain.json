@@ -1,0 +1,146 @@
+[
+  {
+    "task": "arc_easy",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.478,
+    "acc_norm": 0.406,
+    "model": "arm_a_pretrain",
+    "seconds": 1.7
+  },
+  {
+    "task": "arc_easy",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.486,
+    "acc_norm": 0.42,
+    "model": "arm_a_pretrain",
+    "seconds": 1.6
+  },
+  {
+    "task": "arc_challenge",
+    "prompt_format": "raw",
+    "n": 299,
+    "acc": 0.2040133779264214,
+    "acc_norm": 0.2408026755852843,
+    "model": "arm_a_pretrain",
+    "seconds": 1.0
+  },
+  {
+    "task": "arc_challenge",
+    "prompt_format": "instruction",
+    "n": 299,
+    "acc": 0.19732441471571907,
+    "acc_norm": 0.25418060200668896,
+    "model": "arm_a_pretrain",
+    "seconds": 1.0
+  },
+  {
+    "task": "sciq",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.496,
+    "acc_norm": 0.506,
+    "model": "arm_a_pretrain",
+    "seconds": 1.2
+  },
+  {
+    "task": "sciq",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.504,
+    "acc_norm": 0.512,
+    "model": "arm_a_pretrain",
+    "seconds": 1.2
+  },
+  {
+    "task": "piqa",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.616,
+    "acc_norm": 0.624,
+    "model": "arm_a_pretrain",
+    "seconds": 1.1
+  },
+  {
+    "task": "piqa",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.61,
+    "acc_norm": 0.604,
+    "model": "arm_a_pretrain",
+    "seconds": 1.1
+  },
+  {
+    "task": "hellaswag",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.332,
+    "acc_norm": 0.37,
+    "model": "arm_a_pretrain",
+    "seconds": 1.8
+  },
+  {
+    "task": "hellaswag",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.346,
+    "acc_norm": 0.362,
+    "model": "arm_a_pretrain",
+    "seconds": 1.9
+  },
+  {
+    "task": "winogrande",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.514,
+    "acc_norm": 0.514,
+    "model": "arm_a_pretrain",
+    "seconds": 0.6
+  },
+  {
+    "task": "openbookqa",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.164,
+    "acc_norm": 0.224,
+    "model": "arm_a_pretrain",
+    "seconds": 1.1
+  },
+  {
+    "task": "openbookqa",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.136,
+    "acc_norm": 0.244,
+    "model": "arm_a_pretrain",
+    "seconds": 1.2
+  },
+  {
+    "task": "boolq",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.518,
+    "acc_norm": 0.518,
+    "model": "arm_a_pretrain",
+    "seconds": 3.1
+  },
+  {
+    "task": "boolq",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.536,
+    "acc_norm": 0.536,
+    "model": "arm_a_pretrain",
+    "seconds": 0.5
+  },
+  {
+    "task": "lambada",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.19,
+    "acc_norm": 0.19,
+    "model": "arm_a_pretrain",
+    "seconds": 0.7
+  }
+]

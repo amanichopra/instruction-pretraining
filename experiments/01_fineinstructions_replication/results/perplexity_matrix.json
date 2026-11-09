@@ -1,0 +1,83 @@
+[
+  {
+    "ce": 2.779239841302236,
+    "ppl": 16.106772589992207,
+    "bits_per_token": 4.009595536487765,
+    "n_tokens": 491520,
+    "model": "arm_a_pretrain",
+    "stream": "pretrain_val",
+    "scope": "all_tokens"
+  },
+  {
+    "ce": 2.7494011521339417,
+    "ppl": 15.633267131775654,
+    "bits_per_token": 3.96654740759804,
+    "n_tokens": 491520,
+    "model": "arm_a_pretrain",
+    "stream": "sft_val",
+    "scope": "all_tokens"
+  },
+  {
+    "ce": 2.6116585021282575,
+    "ppl": 13.621623619928824,
+    "bits_per_token": 3.7678267695159353,
+    "n_tokens": 427991,
+    "model": "arm_a_pretrain",
+    "stream": "sft_val",
+    "scope": "answer_tokens_only"
+  },
+  {
+    "ce": 2.899890732765198,
+    "ppl": 18.172159639323247,
+    "bits_per_token": 4.1836579792802135,
+    "n_tokens": 491520,
+    "model": "arm_b_sft_from_scratch",
+    "stream": "pretrain_val",
+    "scope": "all_tokens"
+  },
+  {
+    "ce": 2.337383298079173,
+    "ppl": 10.354107470930595,
+    "bits_per_token": 3.3721312927955127,
+    "n_tokens": 491520,
+    "model": "arm_b_sft_from_scratch",
+    "stream": "sft_val",
+    "scope": "all_tokens"
+  },
+  {
+    "ce": 2.337312480997702,
+    "ppl": 10.353374249220884,
+    "bits_per_token": 3.372029125343264,
+    "n_tokens": 427991,
+    "model": "arm_b_sft_from_scratch",
+    "stream": "sft_val",
+    "scope": "answer_tokens_only"
+  },
+  {
+    "ce": 2.8073368151982625,
+    "ppl": 16.565741788137977,
+    "bits_per_token": 4.05013090139155,
+    "n_tokens": 491520,
+    "model": "arm_c_pretrain_then_sft",
+    "stream": "pretrain_val",
+    "scope": "all_tokens"
+  },
+  {
+    "ce": 2.390933314959208,
+    "ppl": 10.923684424921106,
+    "bits_per_token": 3.4493876365878595,
+    "n_tokens": 491520,
+    "model": "arm_c_pretrain_then_sft",
+    "stream": "sft_val",
+    "scope": "all_tokens"
+  },
+  {
+    "ce": 2.3398135101519366,
+    "ppl": 10.379300748013058,
+    "bits_per_token": 3.3756373477011974,
+    "n_tokens": 427991,
+    "model": "arm_c_pretrain_then_sft",
+    "stream": "sft_val",
+    "scope": "answer_tokens_only"
+  }
+]

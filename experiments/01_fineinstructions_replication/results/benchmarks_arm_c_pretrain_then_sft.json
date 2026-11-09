@@ -1,0 +1,146 @@
+[
+  {
+    "task": "arc_easy",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.458,
+    "acc_norm": 0.378,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.7
+  },
+  {
+    "task": "arc_easy",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.456,
+    "acc_norm": 0.382,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.6
+  },
+  {
+    "task": "arc_challenge",
+    "prompt_format": "raw",
+    "n": 299,
+    "acc": 0.1939799331103679,
+    "acc_norm": 0.24414715719063546,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.0
+  },
+  {
+    "task": "arc_challenge",
+    "prompt_format": "instruction",
+    "n": 299,
+    "acc": 0.21070234113712374,
+    "acc_norm": 0.26421404682274247,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.0
+  },
+  {
+    "task": "sciq",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.48,
+    "acc_norm": 0.494,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.2
+  },
+  {
+    "task": "sciq",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.48,
+    "acc_norm": 0.498,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.2
+  },
+  {
+    "task": "piqa",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.622,
+    "acc_norm": 0.618,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.1
+  },
+  {
+    "task": "piqa",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.632,
+    "acc_norm": 0.62,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.1
+  },
+  {
+    "task": "hellaswag",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.34,
+    "acc_norm": 0.372,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.8
+  },
+  {
+    "task": "hellaswag",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.336,
+    "acc_norm": 0.378,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.9
+  },
+  {
+    "task": "winogrande",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.516,
+    "acc_norm": 0.516,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 0.6
+  },
+  {
+    "task": "openbookqa",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.172,
+    "acc_norm": 0.238,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.1
+  },
+  {
+    "task": "openbookqa",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.142,
+    "acc_norm": 0.266,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 1.2
+  },
+  {
+    "task": "boolq",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.592,
+    "acc_norm": 0.592,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 3.1
+  },
+  {
+    "task": "boolq",
+    "prompt_format": "instruction",
+    "n": 500,
+    "acc": 0.628,
+    "acc_norm": 0.628,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 0.6
+  },
+  {
+    "task": "lambada",
+    "prompt_format": "raw",
+    "n": 500,
+    "acc": 0.202,
+    "acc_norm": 0.202,
+    "model": "arm_c_pretrain_then_sft",
+    "seconds": 0.7
+  }
+]

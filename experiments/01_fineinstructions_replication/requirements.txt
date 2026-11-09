@@ -1,0 +1,16 @@
+# install torch first, matched to your CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.6
+transformers>=4.45
+datasets>=3.0
+tokenizers
+safetensors
+huggingface_hub
+accelerate
+numpy
+pyarrow
+pandas
+tqdm
+pyyaml
+rouge-score
+anthropic>=2.0        # only needed for the LLM-as-judge evaluation

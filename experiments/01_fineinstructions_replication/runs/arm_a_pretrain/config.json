@@ -1,0 +1,184 @@
+{
+  "run_name": "arm_a_pretrain",
+  "train_bin": "data/tokens/pretrain.train.bin",
+  "train_mask": null,
+  "val_bins": [
+    "pretrain_val=data/tokens/pretrain.val.bin",
+    "sft_val=data/tokens/sft.val.bin"
+  ],
+  "model_id": "HuggingFaceTB/SmolLM2-135M",
+  "size": "135m",
+  "seq_len": 1024,
+  "micro_batch": 16,
+  "tokens_per_step": 131072,
+  "train_tokens": 1000000000.0,
+  "lr": 0.0015,
+  "min_lr_frac": 0.1,
+  "warmup_frac": 0.02,
+  "weight_decay": 0.1,
+  "grad_clip": 1.0,
+  "loss_chunk_tokens": 0,
+  "eval_batch_size": 8,
+  "loss_on_completion_only": false,
+  "seed": 0,
+  "log_every": 20,
+  "eval_every": 500,
+  "eval_batches": 25,
+  "save_every": 500,
+  "out_dir": "runs",
+  "compile": true,
+  "init_from": null,
+  "resume": true,
+  "rewarm_steps": 100,
+  "bench_steps": 0,
+  "accum": 8,
+  "eff_tokens_per_step": 131072,
+  "total_steps": 7629,
+  "warmup_steps": 152,
+  "params": {
+    "total": 134515008,
+    "embedding": 28311552,
+    "non_embedding": 106203456,
+    "tied_embeddings": true
+  },
+  "arch": {
+    "hidden": 576,
+    "layers": 30,
+    "heads": 9,
+    "kv_heads": 3,
+    "vocab": 49152,
+    "inter": 1536
+  },
+  "train_meta": {
+    "arm": "pretrain",
+    "split": "train",
+    "tokenizer": "HuggingFaceTB/SmolLM2-135M",
+    "vocab_size": 49152,
+    "dtype": "uint16",
+    "total_tokens": 1724653966,
+    "min_judge_score": 4,
+    "max_doc_tokens": 8192,
+    "template": {
+      "prefix": "Instruction: ",
+      "middle": "\n\nAnswer: "
+    },
+    "n_docs": 2129188,
+    "n_pairs": 4643345,
+    "n_rows_scanned": 7972982,
+    "shards": [
+      "train-00000-of-02755",
+      "train-00001-of-02755",
+      "train-00002-of-02755",
+      "train-00003-of-02755",
+      "train-00004-of-02755",
+      "train-00005-of-02755",
+      "train-00006-of-02755",
+      "train-00007-of-02755",
+      "train-00008-of-02755",
+      "train-00009-of-02755",
+      "train-00010-of-02755",
+      "train-00011-of-02755"
+    ],
+    "per_shard": [
+      {
+        "shard": "train-00000-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 134873839,
+        "docs": 172747,
+        "pairs": 369136,
+        "rows": 652667
+      },
+      {
+        "shard": "train-00001-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 143973022,
+        "docs": 179253,
+        "pairs": 398908,
+        "rows": 685353
+      },
+      {
+        "shard": "train-00002-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 138865174,
+        "docs": 171499,
+        "pairs": 383338,
+        "rows": 652649
+      },
+      {
+        "shard": "train-00003-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 129827541,
+        "docs": 192651,
+        "pairs": 388690,
+        "rows": 750363
+      },
+      {
+        "shard": "train-00004-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 141558138,
+        "docs": 184578,
+        "pairs": 378007,
+        "rows": 683100
+      },
+      {
+        "shard": "train-00005-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 154367413,
+        "docs": 175680,
+        "pairs": 390657,
+        "rows": 640313
+      },
+      {
+        "shard": "train-00006-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 141421492,
+        "docs": 184117,
+        "pairs": 385988,
+        "rows": 686668
+      },
+      {
+        "shard": "train-00007-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 140109786,
+        "docs": 172779,
+        "pairs": 383923,
+        "rows": 653030
+      },
+      {
+        "shard": "train-00008-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 139796901,
+        "docs": 167055,
+        "pairs": 385693,
+        "rows": 653075
+      },
+      {
+        "shard": "train-00009-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 164388511,
+        "docs": 169621,
+        "pairs": 396141,
+        "rows": 585666
+      },
+      {
+        "shard": "train-00010-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 141761194,
+        "docs": 183777,
+        "pairs": 393105,
+        "rows": 689628
+      },
+      {
+        "shard": "train-00011-of-02755.parquet",
+        "arm": "pretrain",
+        "tokens": 153710955,
+        "docs": 175431,
+        "pairs": 389759,
+        "rows": 640470
+      }
+    ],
+    "has_mask": false,
+    "bin": "pretrain.train.bin",
+    "build_seconds": 322.7
+  }
+}
